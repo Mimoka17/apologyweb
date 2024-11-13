@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry</title>
+    <link href="apologies.css" rel="stylesheet">
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+            background: url('img/background1.gif') no-repeat center center/cover;
+            position: relative;
+        }
+
+        /* Left and Right Decorative Images */
+        .side-image {
+            position: absolute;
+            width: 80px;
+            height: auto;
+            opacity: 0.8;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .side-image.left {
+            left: 4%;
+        }
+
+        .side-image.right {
+            right: 4%;
+        }
+
+        .container {
+            max-width: 500px;
+            background: url('container-background.jpg') no-repeat center center/cover;
+            background-color: rgba(255, 255, 255, 0.85);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header {
+            background: #ff85b2;
+            color: black;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .header h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 1.8em;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            font-size: 0.9em;
+        }
+
+        .message {
+            padding: 15px;
+            font-weight: 300;
+            line-height: 1.4;
+            font-size: 0.9em;
+            color: #555;
+            text-align: justify;
+        }
+
+        .message h2 {
+            font-family: 'Pacifico', cursive;
+            color: #ff85b2;
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .message p {
+            margin-bottom: 12px;
+        }
+
+        .footer {
+            background: white;
+            color: #555;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+        }
+
+        .footer a {
+            color: #ff85b2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Love Counter Section */
+        .love-counter {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .love-counter button {
+            background-color: #ff85b2;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: background-color 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .love-counter button:hover {
+            background-color: #f76c9e;
+        }
+
+        .love-counter button:focus {
+            outline: none;
+        }
+
+        .love-counter span {
+            font-size: 1.5em;
+            color: #ff85b2;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+
+        /* Image and Message Display when Counter Reaches 100 */
+        .special-content {
+            display: none;
+            margin-top: 20px;
+            text-align: center;
+            animation: fadeIn 2s ease-out;
+        }
+
+        .special-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .special-content p {
+            font-size: 1.2em;
+            color: #ff85b2;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Left Decorative Image -->
+    <a href="https://imgbb.com/"><img style="width: 350px;" src="https://i.ibb.co/1v8fnVX/bunny.gif" alt="bunny" class="side-image left" border="0"></a><br /><a target='_blank' href='https://dedupelist.com/'></a><br />
+    
+    <!-- Right Decorative Image -->
+    <a href="https://imgbb.com/"><img style="width: 300px;" src="https://i.ibb.co/JRW9fpx/bunny2.gif" alt="bunny2"class="side-image right" border="0"></a><br /><a target='_blank' href='https://dedupelist.com/' ></a><br />
+    
+    <div class="container">
+        <div class="header">
+            <h1>For My love</h1>
+            <p>i hope we can spend the rest of our lives together.</p>
+        </div>
+
+        <div class="message">
+            <h2>A Message from Me</h2>
+            <p>Olla ma lovee,</p>
+            <p>I want to take a moment to sincerely apologize for my actions and the hurt I’ve caused you. I’m deeply sorry for all the mistakes I’ve made, and I regret the times I may have let you down or failed to show you the love and respect you deserve. You mean the world to me, and I never want you to feel unappreciated or misunderstood.</p>
+            <p>Looking back, I realize that I’ve made errors in how I’ve communicated and how I’ve handled certain situations. I see now that I could have been more considerate and patient. I am truly sorry for every time my words or actions made you feel anything less than loved. I’m committed to learning from these mistakes and doing my best to grow for you, for us.</p>
+            <p>Thank you for being in my life, for the moments we’ve shared, and for the beautiful memories we’ve created together. I cherish them deeply, and I can’t imagine my days without you by my side. I hope we can work through this, and that I can prove my commitment to making things right. I am here, ready to listen, understand, and be the partner you deserve.</p>
+            <p>With all my heart, I’m sorry, and I love you.</p>
+        </div>
+
+        <div class="footer">
+            <p>give 100 hearts if ya love me<3</p>
+
+            <!-- Love Counter Feature -->
+            <div class="love-counter">
+                <button id="loveButton">
+                    ❤️ Give a Heart
+                </button>
+                <span id="heartCount">0</span>
+            </div>
+
+            <!-- Text and Image Display when Counter Reaches 100 -->
+            <div class="special-content" id="specialContent">
+                <p>THANK YOU SO MUCH FOR THE HEARTS MWAHH<3.</p>
+                <br>
+                <a href="https://imgbb.com/"><img style="width: 300px;" src="https://i.ibb.co/dJ0MmzC/cat.gif" alt="cat" border="0"></a><br /><a target='_blank' href='https://dedupelist.com/'></a><br />
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let heartCount = 0;
+
+        // Function to update heart count when the button is clicked
+        document.getElementById("loveButton").addEventListener("click", function() {
+            heartCount++;
+            document.getElementById("heartCount").textContent = heartCount;
+
+            // Show special content (both text and image) when heart count reaches 100
+            if (heartCount === 100) {
+                document.getElementById("specialContent").style.display = "block";
+            }
+        });
+    </script>
+</body>
+</html>
